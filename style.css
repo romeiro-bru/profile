@@ -1,0 +1,121 @@
+body { color: #87a4b5;
+  background-color: #dadde8;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h1, h2, h3 { color: #6f76a5;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+h3, h2 { font-size: 18px;
+  color: #babecc;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 200;
+}
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+.container {
+  width: 730px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  background-color: #cbcdd4;
+  border-radius: 5px;
+/*  border: 1px solid black;*/
+}
+
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.1);
+  /*border: 1px solid red;*/
+}
+
+.text-center {
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  text-align: center;
+/*  border: 1px solid red;*/
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 10px;
+  padding-left: 1px;
+  list-style: none;
+  padding: 2px 5px;
+}
+
+.list-inline i {
+  color: #ffd369;
+  font-size: 45px;}
+
+.list-inline i:hover {
+  color: #adb5d2;
+  opacity: 0.6;
+}
+
+ .books, .anime {
+  background: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+ }
+
+ .books img, .anime img {
+  border-radius: 5px !important;
+  height: 170px;
+  width: 120px;
+  margin-bottom: 5px;
+ }
+
+.btn {
+  background: #9ea8cc;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.btn :hover, .btn:active {
+  opacity: 0.5;
+  transition: 0.5;
+}
