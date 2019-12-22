@@ -32,8 +32,6 @@ img {
 .container {
   width: 730px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  background-color: #cbcdd4;
   border-radius: 5px;
 /*  border: 1px solid black;*/
 }
@@ -98,6 +96,7 @@ img {
   text-align: center;
   list-style: none;
   padding: 10px;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.1);
  }
 
  .books img, .anime img {
