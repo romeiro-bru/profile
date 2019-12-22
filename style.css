@@ -1,12 +1,12 @@
 body { color: #87a4b5;
   background-color: #dadde8;
-  font-family: sans-serif;
+  font-family: 'Lora', serif;
   font-size: 18px;
   font-weight: 300;
 }
 
 h1, h2, h3 { color: #6f76a5;
-  font-family: sans-serif;
+  font-family: 'Lora', serif;
   font-size: 30px;
 }
 h3, h2 { font-size: 18px;
@@ -20,6 +20,7 @@ h2 {
 p {
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: 'Lora', serif;
 }
 
 img {
