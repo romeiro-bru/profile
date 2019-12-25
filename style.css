@@ -5,12 +5,12 @@ body { color: #87a4b5;
   font-weight: 300;
 }
 
-h1, h2, h3 { color: #6f76a5;
-  font-family: 'Lora', serif;
+h1, h2, h3 { color: #63698d;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
 }
 h3, h2 { font-size: 18px;
-  color: #babecc;
+  color: #A0A0A0;
 }
 
 h2 {
