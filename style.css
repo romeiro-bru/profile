@@ -1,26 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie:400,300,700|Raleway:400,100,300,700,500");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,300,700|Raleway:400,100,300,700,500");
+
 body { color: #87a4b5;
+  background-image: url(https://images.unsplash.com/photo-1500503484417-b2cf1d6e2013?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
+  background-position: center;
+  background-size: cover;
   background-color: #dadde8;
   font-family: 'Lora', serif;
   font-size: 18px;
   font-weight: 300;
 }
 
-h1, h2, h3 { color: #63698d;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+h1 {
+  margin-top: -2px;
 }
-h3, h2 { font-size: 18px;
+
+h1, h2, h3 {
+  font-family: 'Reenie Beanie','Montserrat', sans-serif;
+  color: #8a9098;
+  font-size: 50px;
+}
+
+.fa-kiwi-bird {
+  font-size: 28px;
+}
+
+h3, h2 {
+  font-family: 'PT Sans','Lora', serif !important;
+  font-size: 18px;
   color: #A0A0A0;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 200;
 }
 p {
+  color: #8a9098;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: 'Lora', serif;
+  font-family: 'PT Sans','Lora', serif;
 }
 
 img {
@@ -32,7 +51,7 @@ img {
 .container {
   width: 730px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
-  border-radius: 5px;
+  border-radius: 3px;
 /*  border: 1px solid black;*/
 }
 
@@ -40,7 +59,7 @@ img {
   text-align: center;
   background: white;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 5px 10px 10px rgba(0,0,0,0.13);
   /*border: 1px solid red;*/
 }
@@ -59,7 +78,7 @@ img {
 .card-white {
   background: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.13);
   margin: 0 auto;
   text-align: center;
@@ -81,7 +100,7 @@ img {
 }
 
 .list-inline i {
-  color: #ffd369;
+  color: #f6ca5f;
   font-size: 45px;}
 
 .list-inline i:hover {
@@ -92,7 +111,7 @@ img {
  .books, .anime {
   background: white;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 3px;
   text-align: center;
   list-style: none;
   padding: 10px;
@@ -107,7 +126,7 @@ img {
  }
 
 .btn {
-  background: #9ea8cc;
+  background: #b4b4b9;
   color: white;
   padding: 10px 15px;
   border-radius: 5px;
