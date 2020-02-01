@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie:400,300,700|Raleway:400,100,300,700,500");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,300,700|Raleway:400,100,300,700,500");
 
-body { color: #87a4b5;
+body {
+  color: #87a4b5;
   background-image: url(https://images.unsplash.com/photo-1500503484417-b2cf1d6e2013?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
   background-position: center;
   background-size: cover;
-  background-color: #dadde8;
+  background-color: #8a9098;
   font-family: 'Lora', serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -58,7 +59,7 @@ img {
 .home-card {
   text-align: center;
   background: white;
-  padding: 30px;
+  padding: 40px;
   border-radius: 3px;
   box-shadow: 5px 10px 10px rgba(0,0,0,0.13);
   /*border: 1px solid red;*/
