@@ -72,8 +72,9 @@ h2 {
 }
 p {
   color: #8a9098;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  padding-left: 44px;
+  padding-right: 44px;
   font-family: 'PT Sans','Lora', serif;
 }
 
@@ -81,7 +82,7 @@ img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.18);
 }
 .container {
   width: 730px;   /* This sets the width */
