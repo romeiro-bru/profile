@@ -22,7 +22,18 @@
 }
 /*//////////////////////////////////////////////////////////////////////////*/
 
+/* The animation code */
+@keyframes h1 {
+  from {color: #e2e2e2;}
+  to {color: #8a9098;}
+}
 
+/* The element to apply the animation to */
+h1 {
+  color: #8a9098;
+  animation-name: h1;
+  animation-duration: 5s;
+}
 
 body {
   color: #87a4b5;
