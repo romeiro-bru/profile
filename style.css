@@ -36,11 +36,9 @@ h1 {
 }
 
 body {
-  color: #87a4b5;
   background-image: url(https://images.unsplash.com/photo-1500503484417-b2cf1d6e2013?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
   background-position: center;
   background-size: cover;
-  background-color: #8a9098;
   font-family: 'Lora', serif;
   font-size: 16px;
   font-weight: 300;
@@ -139,7 +137,7 @@ img {
   font-size: 45px;}
 
 .list-inline i:hover {
-  color: #adb5d2;
+  color: #8a9098;
   opacity: 0.6;
 }
 
