@@ -43,7 +43,7 @@ h3 {
 }
 
 .highlighted {
-  box-shadow: inset 0px -7px 0px rgb(43,226,187);
+  box-shadow: inset 0px -11px 0px rgb(43,226,187);
 }
 
 img {
@@ -89,7 +89,7 @@ u {
   background-color: black;
   transition: 0.2s;
 }
-/*//////////////////////////////////////////////////*/
+/*////////////////// Projects //////////////////////*/
 .projects {
   margin: -10px -10px 16px -10px;
   background-color: antiquewhite;
@@ -107,6 +107,10 @@ u {
 .link-projects:hover {
   box-shadow: inset 0px -26px 0px rgb(43,226,187);
   transition: 0.9s;
+}
+
+p > a{
+  text-decoration: underline;
 }
 
 a {
@@ -132,15 +136,6 @@ a:hover {
   list-style: none;
   padding: 10px;
  }
-
- .card img {
-  border-radius: 3px !important;
-  height: 170px;
-  width: 120px;
-  margin-bottom: 5px;
-  padding: 0 6px;
- }
-
 /*//////////////  LISTS  ///////////////////////*/
 ul {
   list-style: none;
@@ -157,7 +152,7 @@ ul.list-inline {
 
 .list-inline i {
   color: #3a3a3a;
-  font-size: 45px;
+  font-size: 40px;
 }
 .list-inline i:hover {
   transition: 1s;
