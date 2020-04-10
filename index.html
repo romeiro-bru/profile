@@ -7,69 +7,82 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="style.css">
     <title>My profile ~</title>
-<!-- /////////////////////// CHANGE BACKGROUND IMAGE /////////// -->
-  <script  type="text/javascript">
-    function changeImg(imgNumber) {
-      var myImages = ["https://images.unsplash.com/photo-1500503484417-b2cf1d6e2013?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80", "https://images.unsplash.com/photo-1502810365585-56ffa361fdde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"];
-      var imgShown = document.body.style.backgroundImage;
-      var newImgNumber =Math.floor(Math.random()*myImages.length);
-      document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
-    }
-    window.onload=changeImg;
-  </script>
-<!-- ///////////////////////////////////////////////////////////// -->
+
   </head>
   <body>
+
     <div class="container">
-      <div class="home-card">
-        <h1><strong>Hello, I'm Bruna! </strong><i class="fas fa-kiwi-bird"></i></h1>
-          <div class="img-circle">
-            <img src="images/20181109_114234.jpg" alt="my photo.br">
-            <h2>Web Developer</h2>
-            <br>
-          </div>
-            <div class="text-center">
-              <p>I'm graduated in biology, I love reading books and watching anime. During the batch we built an innovative web app to involve your friends in your online dating experience. I started coding and I don't wanna stop, I'm very excited to start this new career!</p>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4 col-lg-3">
+
+          <div class="home-card">
+            <h1><strong>Hello, I'm Bruna!</strong></h1>
+            <div class="img-circle">
+              <img src="images/20181109_114234.jpg" alt="my photo.br">
+              <h2>Web Developer</h2>
+              <br>
             </div>
-            <a href="https://www.datesy.app/" class="btn" target="_blank">Go to Datesy</a>
+            <div class="text-center">
+              <p>I'm graduated in biology and I was frustrated about my career and I wanted to build things, so I decided to join the bootcamp. During the batch we built an innovative web app to involve your friends in your online dating experience. I love reading books and watching anime. <u>Check out my projects on the links bellow.</u></p>
+            </div>
             <br>
+            <a href="http://www.datesy.app" class="btn" target="_blank"><i>Go to Datesy</i></a>
             <br>
           </div>
           <br>
-        <div class=" card-white">
-         <h3>Follow me!</h3>
-         <ul class="list-inline">
-          <li><a href="https://github.com/romeiro-bru" target="_blank"></li>
-          <i class="fab fa-github-square"></i></a>
-          <li><a href="https://www.instagram.com/" target="_blank"></li>
-          <i class="fab fa-instagram"></i></a>
-          <li><a href="https://www.linkedin.com/in/romeiro-bruna/" target="_blank"></li>
-          <i class="fab fa-linkedin"></i></a>
-         </ul>
-        </div>
-        <br>
-        <div class="books">
-          <h3> Top Books </h3>
-          <ul class="list-inline">
-            <li><img src="images/theimmortallifeof.jpg" alt="immortal life"></li>
-            <li><img src="images/smokegetsinyoureyes.jpg" alt="smoke gets in your eyes"></li>
-            <li><img src="images/memoirsofagueisha.jpg" alt="memoirs of a gueisha"></li>
-            <li><img src="images/aroundtheworld.jpeg" alt="around the world in 80 days"></li>
-          </ul>
-        </div>
-        <br>
-          <div class="anime">
-            <h3>Top anime</h3>
-            <ul class="list-inline">
-              <li><img src="images/baccano.jpg" alt="baccano"></li>
-              <li><img src="images/bokunohero.jpg" alt="boku no hero"></li>
-              <li><img src="images/ouran.jpg" alt="ouran host club"></li>
-              <li><img src="images/aonoexorcist.jpg" alt="ao no exorcist"></li>
-              <li><img src="images/howl.jpg" alt="howl"></li>
-            </ul>
-          <p>✨ Le Wagon batch #330</p>
+
+          <div class="card">
+            <h3 class="projects">Projects</h3>
+            <a href="https://github.com/luiscarvalhofrade/NUZZLE" class="link-projects" target="_blank">Nuzzle</a>
+            <p class="nuzzle">Pet Snuggles on demand! <a href="https://nuzzle-luiscarvalhofrade.herokuapp.com/" target="_blank">Nuzzle</a> is an Airbnb-like marketplace app where animal lovers can share their pets for short term rental. It was built in 5 days using Ruby on Rails, HTML and CSS.</p>
+
+            <a href="https://github.com/KristaCalleja/datesy" class="link-projects" target="_blank">Datesy</a>
+            <p class="datesy">Unlock the power of matchmakers! <a href="http://www.datesy.app" target="_blank">Datesy</a> is a dating app designed to let committed and married people join in on the fun of dating to help their single friends. Datesy was built in 10 days using Ruby on Rails, HTML, CSS and JavaScript.</p>
+
+            <a href="https://github.com/romeiro-bru/rails-mister-cocktail" class="link-projects" target="_blank">Mr. Cocktail</a>
+            <p class="cocktail">Thirsty? You are just one click away from the perfect cocktail recipe. <a href="https://mr-cocktail-romeiro.herokuapp.com/" target="_blank">Mister Cocktail</a>  is an app that stores our favourite cocktail recipes.</p>
+
           </div>
+          <br>
+
+          <div class=" card">
+            <h3> <i class="highlighted">Follow me!</i></h3>
+            <ul class="list-inline">
+              <li><a href="https://github.com/romeiro-bru" target="_blank"></li>
+              <i class="fab fa-github-square"></i></a>
+              <li><a href="https://www.instagram.com/" target="_blank"></li>
+              <i class="fab fa-instagram"></i></a>
+              <li><a href="https://www.linkedin.com/in/romeiro-bruna/" target="_blank"></li>
+              <i class="fab fa-linkedin"></i></a>
+            </ul>
+          </div>
+          <br>
+
+          <div class="card">
+            <h3><i class="highlighted">Top Books</i></h3>
+            <ul class="list-inline">
+              <li><img src="images/theimmortallifeof.jpg" alt="immortal life"></li>
+              <li><img src="images/smokegetsinyoureyes.jpg" alt="smoke gets in your eyes"></li>
+              <li><img src="images/memoirsofagueisha.jpg" alt="memoirs of a gueisha"></li>
+              <li><img src="images/aroundtheworld.jpeg" alt="around the world in 80 days"></li>
+            </ul>
+            <a class="le-wagon" href="https://www.linkedin.com/school/le-wagon/" target="_blank"><i>Le Wagon batch #330</i></a>
+          </div>
+          <br>
+
+        </div>
       </div>
-      <br>
+    </div>
+<!-- /////////////////////////// -->
+  <div class="footer">
+    <div class="footer-links">
+      <a href="https://github.com/romeiro-bru" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/romeiro-bruna/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="footer-copyright">
+      <i class="fas fa-heart"></i>
+    </div>
+  </div>
   </body>
 </html>
