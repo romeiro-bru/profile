@@ -36,6 +36,7 @@ h2 {
   font-size: 16px;
   font-weight: 200;
   font-family: 'Poppins';
+  color: #8f3243;
 }
 h3 {
   font-size: 20px;
@@ -70,7 +71,7 @@ img {
 }
 
 u {
-  color: #f05b78;
+  color: #8f3243;
 }
 
 .btn {
