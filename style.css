@@ -17,12 +17,9 @@ h1 {
 
 body {
   background-color: #111924;
-  background-position: center;
-  background-size: cover;
   font-family: 'PT Sans','Lora', serif;
-  font-size: 18px;
-  font-weight: 300;
-  color: #435467;
+  font-size: 20px;
+  color: #778ca3;
   margin: 0 !important;
 }
 
@@ -110,7 +107,7 @@ p > a{
 
 a {
   text-decoration: none;
-  color: #39485a;
+  color: #778ca3;
 }
 
 a:hover {
@@ -169,8 +166,8 @@ ul.list-inline {
   color: white;
   opacity: 0.5;
   text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
+  font-size: 30px;
+  padding: 0px 14px;
 }
 
 .footer-links a:hover {
@@ -181,5 +178,5 @@ ul.list-inline {
 .footer .fa-heart {
   color: #3dbffe;
   text-shadow: 2px 2px 5px #3F51B5;
-  padding: 0 10px;
+  padding: 0 14px;
 }
