@@ -90,7 +90,6 @@ u {
 .projects {
   margin: -10px -10px 16px -10px;
   padding: 15px;
-  border-top: double;
 }
 
 .link-projects {
@@ -100,8 +99,7 @@ u {
   font-family: "Poppins";
 }
 .link-projects:hover {
-  color: #0ad8f2;
-  transition: 0.9s;
+  color: #6ceeff;
 }
 
 p > a{
@@ -131,7 +129,7 @@ a:hover {
   text-align: center;
   list-style: none;
   padding: 10px;
-  border-bottom: double;
+  border-top: double;
  }
 /*//////////////  LISTS  ///////////////////////*/
 ul.list-inline {
@@ -180,5 +178,6 @@ ul.list-inline {
 
 .footer .fa-heart {
   color: #3dbffe;
+  text-shadow: 2px 2px 5px #3F51B5;
   padding: 0 10px;
 }
