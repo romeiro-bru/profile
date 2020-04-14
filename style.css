@@ -36,8 +36,8 @@ h2 {
   font-size: 16px;
   font-weight: 200;
   font-family: 'Poppins';
-  color: #8f3243;
 }
+
 h3 {
   font-size: 20px;
   font-family: 'Poppins';
@@ -104,11 +104,13 @@ u {
 
 p > a{
   text-decoration: underline;
+  text-decoration-color: #0785ea;
+  font-weight: bold;
 }
 
 a {
   text-decoration: none;
-  color: #8e1c43;
+  color: #39485a;
 }
 
 a:hover {
