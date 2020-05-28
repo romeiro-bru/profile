@@ -5,7 +5,7 @@
 body {
   background-color: #111924;
   font-family: 'Poppins', 'PT Sans','Lora', serif;
-  font-size: 20px;
+  font-size: 17px;
   color: #778ca3;
   margin: 0 !important;
 }
@@ -15,11 +15,10 @@ h1 {
   font-family: 'Reenie Beanie','Montserrat', sans-serif;
   font-size: 45px;
   color: #f05c80;
-  text-shadow: 2px 2px 5px #E91E63;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 15.5px;
   font-weight: 200;
   margin-top: -7px;
 }
@@ -59,11 +58,6 @@ img {
 
 .img-circle {
   border-radius: 50%;
-}
-
-.font-16 {
-  font-size: 16px;
-  margin-top: -30px;
 }
 
 u {
