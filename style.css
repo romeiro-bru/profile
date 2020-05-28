@@ -13,7 +13,7 @@ body {
 h1 {
   margin-top: -2px;
   font-family: 'Reenie Beanie','Montserrat', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   color: #f05c80;
   text-shadow: 2px 2px 5px #E91E63;
 }
@@ -61,6 +61,11 @@ img {
   border-radius: 50%;
 }
 
+.font-16 {
+  font-size: 16px;
+  margin-top: -30px;
+}
+
 u {
   color: #8f3243;
 }
@@ -79,7 +84,6 @@ u {
 .link-projects:hover {
   color: #6ceeff;
 }
-
 
 p {
   padding: 0 10%;
@@ -149,4 +153,11 @@ ul.list-inline {
   color: #3dbffe;
   text-shadow: 2px 2px 5px #3F51B5;
   padding: 0 14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 16px;
+  }
 }
