@@ -5,7 +5,7 @@
 body {
   background-color: #111924;
   font-family: 'Poppins', 'PT Sans','Lora', serif;
-  font-size: 17px;
+  font-size: 19px;
   color: #778ca3;
   margin: 0 !important;
 }
@@ -45,6 +45,9 @@ img {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
 }
 
+#font-16, .fa-arrow-circle-right {
+  font-size: 16px;
+}
  .card {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
   background: #1a232d;
@@ -153,5 +156,11 @@ ul.list-inline {
 @media only screen and (max-width: 600px) {
   p {
     font-size: 16px;
+  }
+  #font-16 {
+    font-size: 9.5px;
+  }
+  .fa-arrow-circle-right {
+    font-size: 10px;
   }
 }
