@@ -162,9 +162,12 @@ ul.list-inline {
     font-size: 15px;
   }
   #font-16 {
-    font-size: 9.5px;
+    font-size: 11.5px;
   }
   .fa-envelope {
     font-size: 10px;
+  }
+  .list-inline i {
+    font-size: 35px;
   }
 }
