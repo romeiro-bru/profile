@@ -154,6 +154,10 @@ ul.list-inline {
 
 
 @media only screen and (max-width: 600px) {
+  .container {
+    margin: 0rem auto;
+    padding: 0 3%;
+  }
   p {
     font-size: 15px;
   }
