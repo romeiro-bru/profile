@@ -155,7 +155,7 @@ ul.list-inline {
 
 @media only screen and (max-width: 600px) {
   p {
-    font-size: 16px;
+    font-size: 15px;
   }
   #font-16 {
     font-size: 9.5px;
