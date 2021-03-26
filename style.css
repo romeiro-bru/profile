@@ -79,7 +79,7 @@ u {
   font-family: "Poppins";
 }
 .link-projects:hover {
-  color: #6ceeff;
+  color: #8ef2ff;
 }
 
 p {
@@ -98,7 +98,7 @@ a {
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /*//////////////  LISTS  ///////////////////////*/
